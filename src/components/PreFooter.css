@@ -1,0 +1,74 @@
+.PreFooter{
+    margin: 1vmax 0 0 0;
+    background-color: white;
+    padding: 1vmax;
+    padding-bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.PreFooter > div{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color:rgba(66, 66, 66, 0.829);
+    cursor: pointer;
+}
+ .PreFooter > div:hover p{
+        color: rgb(19, 18, 18);
+    }
+.PreFooter img{
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    margin-right:30px;
+}
+
+.PreFooter2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: white;
+    
+}
+
+.PreFooter2 img{
+    width:24px;
+    height:24px;
+    margin:20px;
+}
+.PreFooter2 > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.PreFooter2 p{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.PreFooter2 span{
+    font-size: 16px;
+}
+
+.PreFooter2 > div > div > input{
+    border: none;
+    outline: none;
+    padding: 0.5vmax 1vmax;
+    background-color: rgb(255, 255, 255);
+    font-size: 1vmax;
+
+    width: 20.4vmax;
+  }
+
+  .PreFooter2 > div > div > button{
+    border: none;
+    padding: 0.5vmax;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+  }
+
+ 
+  .PreFooter2 > div > div{
+    border: 1px solid rgba(126, 126, 126, 0.493);
+    }

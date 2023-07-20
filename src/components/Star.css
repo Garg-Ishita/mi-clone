@@ -1,0 +1,26 @@
+.starProduct{
+    display: flex;
+    margin: 1 vmax auto ;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.right {
+    margin:3px;
+    display: flex;
+    width:46%;
+    flex-wrap: wrap;
+    padding: 2px;
+}
+
+
+.starProduct img{
+    border-radius:10px;
+    margin: 1.2px;
+    transition:  all 0.5;
+}
+
+.starProduct img:hover{
+    box-shadow: 5px 5px 20px gray;
+}
