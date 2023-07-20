@@ -1,5 +1,5 @@
 import React from 'react'
-import CarouselItem from 'react-bootstrap/esm/CarouselItem'
+// import CarouselItem from 'react-bootstrap/esm/CarouselItem'
 import './Banner.css'
 import Carousel from 'react-bootstrap/Carousel'
 
